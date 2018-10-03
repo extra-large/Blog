@@ -1,0 +1,40 @@
+.said-bar{
+	position: relative;
+	width: 100%;
+	float: none;
+}
+
+.main{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.article-list,.article{
+	margin: 0;
+}
+
+.said-bar .nav,
+.said-bar .tad-list{
+	text-align: center;
+	display: none;
+}
+
+#menu-checkbox:checked ~ .nav,
+#menu-checkbox:checked ~ .tad-list{
+	display: block;
+}
+
+#menu-toggle{
+	display: block;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	font-size: 18px;
+	font-weight: 200;
+	color: rgba(255,255,255,.7);
+}
+
+
+
+

@@ -1,0 +1,111 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #333;
+	line-height: 1.5;
+}
+a,body{
+	color: #eee;
+}
+a{
+	text-decoration: none;
+}
+.said-bar{
+	float: left;
+	width: 20%;
+	position: fixed;
+}
+
+.said-bar > *{
+	padding: 20px 50px;
+}
+
+.said-bar .nav a{
+	font-weight: 700;
+}
+
+.said-bar .nav a,
+.said-bar .tad-list a{
+	display: block;
+	padding: 3px;
+	color: #999;
+	-webkit-transition: color 200ms;
+	-moz-transition: color 200ms;
+	-ms-transition: color 200ms;
+	-o-transition: color 200ms;
+	transition: color 200ms;
+}
+
+.said-bar .nav a:hover,
+.said-bar .tad-list a:hover{
+	color: #eee;
+}
+
+.said-bar .nav a:active,
+.said-bar .tad-list a:active {
+	color: darkviolet;
+}
+	
+.main{
+	float: right;
+	width: 80%;
+	color: #333;
+}
+
+.header .login{
+	line-height: 1;
+	border: 3px solid #eee;
+	padding: 10px 20px;
+	font-size: 30px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.article-list,.article{
+	margin-right:25% ;
+	background: #fff;
+	padding: 20px 30px;
+	-webkit-box-shadow: 0 0 3px 2px rgba(0,0,0,255);
+	-moz-box-shadow: 0 0 3px 2px rgba(0,0,0,255);
+	box-shadow: i0 0 3px 2px rgba(0,0,0,255);
+}
+
+.article-list .item > *,
+.article .title > *{
+	margin: 10px 0;
+}
+
+.article-list .item{
+	margin-bottom: 25px;
+}
+
+.article-list .item .title,
+.article .title{
+	color: #333333;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.article-list .item .stasut,
+.article .stasut{
+	font-size:13px ;
+	color: #666;
+}
+
+#menu-checkbox,
+#menu-toggle{
+	display: none;
+}
+
+.tiashi{
+	font-size: 15px;
+	font-weight: 600;
+	color: #999999;
+}
+.tiashi:hover{
+	color: darkviolet;
+}
