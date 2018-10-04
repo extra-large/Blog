@@ -7,6 +7,32 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 		<link rel="stylesheet" type="text/css" media="(max-width:736px)" href="css/mobile.css"/>
+		
+		<style type="text/css">
+			.hide{
+				color: red;
+			}
+			.yc{
+				display: none;
+				font-weight: 700;
+			}
+			.ppp{
+				display: block;
+			}
+		</style>
+		<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$().ready(function(){
+				$(".hide").click(
+					function(){
+						$(this).next().addClass("ppp").toggle(500);
+					}
+					,function(){
+						$(this).next().removeClass("ppp").toggle(500);
+					}
+				);
+			});
+		</script>
 	</head>
 	<body>
 		<div class="said-bar">
@@ -31,12 +57,19 @@
 		<div class="main">
 			<div class="article">
 				<div class="item">
-					<h1 class="title">»关于我☃«</h1>
+					<h1 class="title">»联系我☃«</h1>
 					<div class="stasut">发布时间：2018-10-03 | 关注人数：1 | 其他内容：#感情  #情绪</div><br />
 					<div class="cnetent">
-						<div><h1>嗨，我是特大号☺</h1></div><br />
-						<div><img src="img/bgbg.jpg"/></div><br />
-						<div style="float:right"><h1>未完待续......</h1></div><br />
+						<div><h2>嗨，我是特大号☺</h2></div><br />
+						<div><h2>你想用电话、微信还是QQ联系我呢？</h2></div><br />
+						<div>
+							<h3 class="hide">请你点一下这里，看看我的答案。</h3>
+							<p class="yc">我猜你想用微信，对不对？<br />
+							我的理由如下：<br />
+							因为我觉得微信是个不错的聊天工具，很多功能可以帮助我们在聊天是能够增加我的的感情。而且就算是遇到尴尬的事情是，还能用表情包化解尴尬等等......
+							</p>							
+						</div><br />
+						<div style="float:right"><h3>我们的故事才刚刚开始......</h3></div><br />
 						<div>&nbsp;</div><br />
 						<div>&nbsp;</div><br />
 						<div>&nbsp;</div><br />
